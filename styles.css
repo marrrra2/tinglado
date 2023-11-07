@@ -39,6 +39,11 @@
     text-decoration: none; 
     transition: background-color 0.3s ease; 
     margin-right: 100px;
+    
+  }
+.redirect a{
+  text-decoration: none;
+  color: white;
 }
 
 .redirect:hover {
@@ -85,4 +90,10 @@
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
+}
+
+.descripcionMarca{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
